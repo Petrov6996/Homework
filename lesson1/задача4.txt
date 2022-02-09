@@ -1,0 +1,28 @@
+#include <iostream>
+
+int main()
+{
+    float a;
+    float b;
+    float c;
+    
+    std::cout << "Ckoka deneg bydlo? ";
+    std::cin >> a;
+    
+    std::cout << "Ckoka deneg proebal? ";
+    std::cin >> b;
+    
+    if (a <= 0 ) {
+       std::cout << "Deneg net ";
+   }
+    else { 
+        if ( b <= 0) {
+            std::cout << "Artur ebanulsa ";
+        }
+    else { 
+        c = ( b / a ) * 100;
+        std::cout << c << '%';
+    }
+    }
+    return 0;
+}

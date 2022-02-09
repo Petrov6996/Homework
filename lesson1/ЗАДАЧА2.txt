@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() 
+{   int a;
+    
+    std::cout << "Вводи сука число далбаеб ";
+    std::cin >> a;
+    
+    if (a % 2 == 0) {
+        std::cout << "Parnoe";
+    }
+    else {
+        std::cout << "ne parnoe";
+    }
+        
+       return 0;
+}
