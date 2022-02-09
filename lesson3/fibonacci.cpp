@@ -12,17 +12,18 @@ int main()
     while ( counter < a)
     {
     
-    if ( counter == 0)
-    {
-        std::cout << one << " " << two << " ";
-    }
+        if ( counter == 0)
+        {
+            std::cout << one << " " << two << " ";
+        }
+        
         counter = counter + 1;
 
         res = one + two;
         one = two;
         two = res;
     
-    std::cout << res << " ";
+        std::cout << res << " ";
     }
 
     return 0;

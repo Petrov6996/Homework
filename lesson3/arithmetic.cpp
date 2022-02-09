@@ -19,8 +19,6 @@ int main()
         std::cout << a << " ";
         a = a + d;
     }
-
-
-
+    
     return 0;
 }
